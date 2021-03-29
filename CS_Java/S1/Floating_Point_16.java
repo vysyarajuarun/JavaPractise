@@ -43,7 +43,7 @@ public class Floating_Point_16
 		Floating_Point_16.sprint();
 		Floating_Point_16 fp = new Floating_Point_16();
 		fp.iprint();
-		fp.sprint();
+		//fp.sprint();
 	}
 
 	public static void sprint()
