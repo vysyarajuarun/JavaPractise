@@ -11,7 +11,7 @@ class Ternary_Operator   // 34 Ternary Operator
 		System.out.println(x);	
 		System.out.println(z);
 
-		boolean p;
+		boolean p;	//Syntax of Ternary Operator x(Assignment part) = (Condition / Operation ) ? true (Value): false ; 
 		p = (3>4)?true:false;   // Ternary operator has ? is for true and : is for false
 		System.out.println(p);  // java has only one ternary operator.
 	
