@@ -41,7 +41,7 @@ public class Processor
 		return "Processor [ 1. brand ="+brand+ ", 2. series ="+series+ ", 3. generation= "+generation+ ", 4.cores = "+cores+ ",  5.threads ="+threads+ ",  6.cacheMemory = "+cacheMemory+ ", 7.frequency ="+frequency+ ", 8. minFrequency ="+minFrequency+", 9.maxFrequency = "+maxFrequency+ "]";
 	}
 	
-	public String getbrand()
+	public String getBrand()
 	{
 		return brand;
 	}

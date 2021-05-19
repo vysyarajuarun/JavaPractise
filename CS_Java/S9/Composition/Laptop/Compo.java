@@ -3,7 +3,7 @@ public class Compo
 	public static void main(String[] args)
 	{
 		Laptop lappy = new Laptop();
-		System.out.println(lappy);
+		System.out.println(lappy.getProcessor().getgeneration());
 	}
 }
 

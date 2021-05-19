@@ -39,4 +39,31 @@ public class Laptop
 	{
 		return processor;
 	}
+	
+	public GraphicsCard getGraphicsCard()
+	{
+		return graphicsCard;
+	}
+	
+	public screen getscreen()
+	{
+		return screen;
+	}
+	
+	public ram getram()
+	{
+		return ram;
+	}
+	
+	public hardDrive gethardDrive()
+	{
+		return hardDrive;
+	}
+	
+	public opticalDrive getopticalDrive()
+	{
+		return opticalDrive;
+	}
+	
+	public String getkeyboard;
 }

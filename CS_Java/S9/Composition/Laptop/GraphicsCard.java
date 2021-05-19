@@ -22,4 +22,6 @@ public class GraphicsCard
 	{
 		return "GraphicsCard [ 1.brand = "+brand+ ", 2.series =" +series+ ", 3.memory = "+memory+ "]";
 	}
+	
+	
 }
