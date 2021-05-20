@@ -45,25 +45,34 @@ public class Laptop
 		return graphicsCard;
 	}
 	
-	public screen getscreen()
+	public float getscreen()
 	{
 		return screen;
 	}
 	
-	public ram getram()
+	public String getRam()
 	{
 		return ram;
 	}
 	
-	public hardDrive gethardDrive()
+	public String gethardDrive()
 	{
 		return hardDrive;
 	}
 	
-	public opticalDrive getopticalDrive()
+	public String OpticalDrive()
 	{
 		return opticalDrive;
 	}
 	
-	public String getkeyboard;
+	public String getkeyboard()
+	{
+		return keyboard;
+	}
+	
+	public String gamingMode()
+	{
+		processor.setfrequency(processor.getmaxFrequency());
+		return "success";
+	}
 }

@@ -75,6 +75,10 @@ public class Processor
 	{
 		return frequency;
 	}
+	public void setfrequency(String frequency)
+	{
+		this.frequency = frequency;
+	}
 	
 	public String getminFrequency()
 	{

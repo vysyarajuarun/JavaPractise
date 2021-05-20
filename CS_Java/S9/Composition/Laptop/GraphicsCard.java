@@ -23,5 +23,18 @@ public class GraphicsCard
 		return "GraphicsCard [ 1.brand = "+brand+ ", 2.series =" +series+ ", 3.memory = "+memory+ "]";
 	}
 	
+	public String getbrand()
+	{
+		return brand;
+	}
 	
+	public int getseries()
+	{
+		return series;
+	}
+	
+	public String getmemory()
+	{
+		return memory;
+	}
 }
